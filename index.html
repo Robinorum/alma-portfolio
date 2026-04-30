@@ -344,17 +344,81 @@
         </div>
     </section>
 
-    <!-- Projets -->
+    <!-- Projets & Distinctions -->
     <section id="projets" class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-4 text-center">
-            <h2 class="font-heading text-3xl font-bold text-slate-900 mb-12 reveal">Projets & Distinctions</h2>
-            <div class="max-w-4xl mx-auto bg-slate-900 rounded-3xl p-8 shadow-2xl reveal mb-12 text-white flex flex-col md:flex-row gap-8 items-center">
-                <div class="w-full md:w-1/3 text-yellow-400 text-5xl">
-                    <i class="fas fa-trophy"></i>
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="font-heading text-3xl font-bold text-slate-900 mb-12 text-center reveal">Projets & Distinctions</h2>
+
+            <!-- Main Project Card (Les Entrep') -->
+            <div class="max-w-4xl mx-auto bg-gradient-to-r from-slate-900 to-slate-800 rounded-3xl p-1 md:p-1 shadow-2xl reveal hover:scale-[1.01] transition-transform duration-500 mb-12">
+                <div class="bg-slate-900 rounded-[22px] overflow-hidden flex flex-col md:flex-row h-full">
+                    <div class="md:w-2/5 relative h-64 md:h-auto overflow-hidden">
+                        <img src="images/entrep.png" alt="Innovation" class="w-full h-full object-cover opacity-80">
+                        <div class="absolute top-4 left-4 bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+                            <i class="fas fa-trophy"></i> 2ème Place & Prix Entreprendre
+                        </div>
+                    </div>
+                    <div class="p-8 md:p-10 md:w-3/5 flex flex-col justify-center text-white">
+                        <h3 class="text-2xl font-bold mb-3 font-heading text-yellow-400">Concours "Les Entrep' 2024"</h3>
+                        <p class="text-slate-300 mb-6 leading-relaxed">
+                            Conception d'une entreprise innovante en agroalimentaire. Lauréate pour un projet alliant faisabilité technique et potentiel marché.
+                        </p>
+                        <div class="flex gap-4">
+                            <div class="flex flex-col">
+                                <span class="text-xs text-slate-400 uppercase tracking-wider">Rôle</span>
+                                <span class="font-semibold">Porteuse de compétences</span>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="text-xs text-slate-400 uppercase tracking-wider">Compétence</span>
+                                <span class="font-semibold">Entrepreneuriat</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="w-full md:w-2/3 text-left">
-                    <h3 class="text-2xl font-bold mb-3 font-heading text-yellow-400">Concours "Les Entrep' 2024"</h3>
-                    <p class="text-slate-300">Lauréate (2ème Place) pour un projet innovant en agroalimentaire.</p>
+            </div>
+
+            <!-- Secondary Projects Grid -->
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                <!-- 24h pour entreprendre -->
+                <div class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 reveal border border-slate-100">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="images/24h.jpg" alt="24h pour entreprendre" class="w-full h-full object-cover">
+                        <div class="absolute top-4 left-4 bg-indigo-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md">
+                            <i class="fas fa-stopwatch mr-1"></i> Challenge Créatif
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-3 font-heading text-slate-800">24h pour Entreprendre</h3>
+                        <p class="text-slate-600 mb-6 leading-relaxed text-sm">
+                            Marathon créatif et intensif où des équipes doivent, en une journée et une nuit, transformer une simple idée en un projet de startup viable.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-indigo-50 text-indigo-700 text-xs rounded-full font-semibold">Travail d'équipe</span>
+                            <span class="px-3 py-1 bg-indigo-50 text-indigo-700 text-xs rounded-full font-semibold">Créativité</span>
+                            <span class="px-3 py-1 bg-indigo-50 text-indigo-700 text-xs rounded-full font-semibold">Pitch</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet McCormick -->
+                <div class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 reveal border border-slate-100" style="transition-delay: 100ms;">
+                    <div class="h-48 overflow-hidden relative bg-slate-50 flex items-center justify-center">
+                        <img src="images/mccormick.jpg" alt="Logo McCormick" class="w-full h-full object-cover">
+                        <div class="absolute top-4 left-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md">
+                            <i class="fas fa-flask mr-1"></i> Recherche CMI
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-3 font-heading text-slate-800">Projet de Recherche McCormick</h3>
+                        <p class="text-slate-600 mb-6 leading-relaxed text-sm">
+                            Projet de recherche en CMI axé sur l'optimisation et l'éco-responsabilité. Apprentissage de la bibliographie, des analyses de mise en situation et de la recherche autonome avec un objectif précis.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-red-50 text-red-700 text-xs rounded-full font-semibold">Recherche Bibliographique</span>
+                            <span class="px-3 py-1 bg-red-50 text-red-700 text-xs rounded-full font-semibold">Éco-responsabilité</span>
+                            <span class="px-3 py-1 bg-red-50 text-red-700 text-xs rounded-full font-semibold">Autonomie</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -365,33 +429,58 @@
         <div class="max-w-7xl mx-auto px-4">
             <div class="text-center max-w-2xl mx-auto mb-16 reveal">
                 <h2 class="font-heading text-3xl font-bold text-slate-900 mb-4">Mes Compétences</h2>
-                <p class="text-slate-500">Un profil pluridisciplinaire alliant science, communication et pédagogie.</p>
+                <p class="text-slate-500">Un profil hybride alliant rigueur scientifique et créativité entrepreneuriale.</p>
             </div>
 
-            <div class="grid md:grid-cols-4 gap-6">
-                <!-- Technique -->
-                <div class="bg-white p-6 rounded-2xl shadow-sm reveal">
-                    <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center text-agro-main text-xl mb-4"><i class="fas fa-microscope"></i></div>
-                    <h4 class="font-bold mb-3">Technique & Labo</h4>
-                    <p class="text-xs text-slate-500 leading-relaxed">Chimie des aliments, Analyse sensorielle, IFS/ISO, ATP-métrie, <b>Diplômée FAGE (Formatrice)</b>.</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Hard Skills -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group reveal">
+                    <div class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center text-agro-main text-2xl mb-6">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-4">Technique & Labo</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-white text-slate-600 text-sm rounded-lg font-medium border border-slate-200">Chimie des aliments</span>
+                        <span class="px-3 py-1 bg-white text-slate-600 text-sm rounded-lg font-medium border border-slate-200">Analyse sensorielle</span>
+                        <span class="px-3 py-1 bg-white text-slate-600 text-sm rounded-lg font-medium border border-slate-200">ATP-métrie</span>
+                        <span class="px-3 py-1 bg-white text-slate-600 text-sm rounded-lg font-medium border border-slate-200">Normes ISO/IFS</span>
+                    </div>
                 </div>
-                <!-- Outils -->
-                <div class="bg-white p-6 rounded-2xl shadow-sm reveal" style="transition-delay: 100ms;">
-                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 text-xl"><i class="fas fa-laptop-code"></i></div>
-                    <h4 class="font-bold mb-3">Outils Digitaux</h4>
-                    <p class="text-xs text-slate-500 leading-relaxed">ERP Sage X3, Microsoft 365, Canva, CapCut, Tickboss.</p>
+
+                <!-- Digital Skills -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group reveal" style="transition-delay: 100ms;">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 text-2xl mb-6">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-4">Outils & Logiciels</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-white text-slate-600 text-sm rounded-lg font-medium border border-slate-200">ERP Sage X3</span>
+                        <span class="px-3 py-1 bg-white text-slate-600 text-sm rounded-lg font-medium border border-slate-200">Microsoft 365</span>
+                        <span class="px-3 py-1 bg-white text-slate-600 text-sm rounded-lg font-medium border border-slate-200">Tickboss</span>
+                        <span class="px-3 py-1 bg-white text-slate-600 text-sm rounded-lg font-medium border border-slate-200">Canva</span>
+                    </div>
                 </div>
-                <!-- Marketing (Refined) -->
-                <div class="bg-white p-6 rounded-2xl shadow-sm reveal" style="transition-delay: 200ms;">
-                    <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center text-orange-600 text-xl"><i class="fas fa-comments"></i></div>
-                    <h4 class="font-bold mb-3">Communication</h4>
-                    <p class="text-xs text-slate-500 leading-relaxed italic">Relation client, Aisance à l'oral, Force de persuasion, Stratégie digitale.</p>
-                </div>
-                <!-- Langues -->
-                <div class="bg-white p-6 rounded-2xl shadow-sm reveal" style="transition-delay: 300ms;">
-                    <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center text-purple-600 text-xl"><i class="fas fa-globe"></i></div>
-                    <h4 class="font-bold mb-3">Langues</h4>
-                    <p class="text-xs text-slate-500 leading-relaxed">Français/Arabe (Bilingue), Anglais (B2 TOEIC), Espagnol (B1).</p>
+
+                <!-- Languages -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group reveal" style="transition-delay: 200ms;">
+                    <div class="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center text-purple-600 text-2xl mb-6">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-4">Langues</h3>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex justify-between items-center">
+                            <span>Français / Arabe</span>
+                            <span class="font-bold text-purple-600">Bilingue</span>
+                        </li>
+                        <li class="flex justify-between items-center">
+                            <span>Anglais</span>
+                            <span class="font-bold text-purple-600">B2</span>
+                        </li>
+                        <li class="flex justify-between items-center">
+                            <span>Espagnol</span>
+                            <span class="font-bold text-purple-600">B1</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

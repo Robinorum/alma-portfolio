@@ -5,11 +5,6 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.dark .glass-nav {
-    background: rgba(9, 9, 11, 0.8);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
 /* Animated Blobs */
 .blob {
     position: absolute;
@@ -41,10 +36,6 @@
     height: 100%;
     background-color: #e2e8f0;
     z-index: 0;
-}
-
-.dark .timeline-line::before {
-    background-color: #27272a;
 }
 
 @media (max-width: 768px) {

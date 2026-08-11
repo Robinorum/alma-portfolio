@@ -11,18 +11,11 @@ This project is a personal portfolio website for Alma Kasouha, showcasing her ac
     - **Fonts:** Google Fonts (Montserrat & Open Sans).
 - **Architecture:** Single-page static website with scroll-reveal animations and a responsive design.
 
-## Features
-
-- **Responsive Design:** Mobile-first approach using Tailwind CSS.
-- **Dark Mode:** Support for dark/light modes with a toggle in the navbar and persistence in `localStorage`.
-- **Scroll Reveal:** Custom animations triggered as the user scrolls.
-- **Modern UI:** Glassmorphism effects, refined typography, and sophisticated color palettes.
-
 ## Directory Structure
 
-- `index.html`: Main entry point containing the structure, Tailwind configuration, and UI.
+- `index.html`: Main entry point containing the structure and Tailwind configuration.
 - `style.css`: Custom CSS for animations, glassmorphism effects, and timeline styling.
-- `script.js`: JavaScript for scroll animations, navbar effects, and dark mode toggle.
+- `script.js`: JavaScript for scroll animations and dynamic navbar effects.
 - `images/`: Directory containing profile pictures, project thumbnails, and favicon.
 - `cv/`: Directory containing the downloadable PDF version of the CV.
 - `CNAME`: Configuration for the custom domain `almakasouha.com`.
@@ -40,6 +33,7 @@ The project is designed to be hosted on static hosting services (e.g., GitHub Pa
 
 ## Development Conventions
 
-- **Styling:** Primarily uses Tailwind CSS utility classes. Custom animations and complex styles should be added to `style.css`. Use `dark:` variants for dark mode support.
+- **Styling:** Primarily uses Tailwind CSS utility classes. Custom animations and complex styles should be added to `style.css`.
 - **Animations:** Uses a custom `reveal` class in CSS combined with `script.js` to trigger animations on scroll.
 - **Organization:** Keep images in the `images/` folder and document-related assets in their respective directories (like `cv/`).
+- **Responsive Design:** Follow Tailwind's mobile-first approach.
